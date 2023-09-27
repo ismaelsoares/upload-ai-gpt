@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { App } from './App.tsx'
+import { App } from './app.tsx'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
@@ -8,3 +8,11 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
     <App />
   </React.StrictMode>,
 )
+
+
+
+// if (process.env.NODE_ENV === "development") {
+//   import("autopreview/react").then(({ default: AutoPreview }) => {
+//     new AutoPreview("#root")
+//   })
+// }

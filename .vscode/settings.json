@@ -1,0 +1,7 @@
+{
+    "livePreview.defaultPreviewPath": "/upload-ai-web/index.html",
+    "AutoPreview.serverURL": "http://localhost:5173/",
+    "AutoPreview.background": "transparent",
+    "AutoPreview.center": false,
+    "AutoPreview.locked": false
+}
